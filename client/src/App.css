@@ -1,0 +1,380 @@
+/* Navbar */
+.bgImg1{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* MainweCare.js */
+.whychoose:hover{
+  background: #FB2576;
+  color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Location and Directions */
+.location{
+  margin:1rem 0 1rem 0;
+  text-align: center;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Doctors */
+.doctorsImg{
+  /* border: 1px solid yellow; */
+  width: 70%;
+  height: 13rem;
+  margin: 1rem auto 0 auto;
+  border-radius: 12rem; 
+}
+.doctorDiv{
+  border-radius: 2rem;
+}
+.doctorDiv:hover{
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(218, 180, 180, 0.674),
+    190px 24px 46px var(--box-shadow-color);
+    background: yellow;
+}
+
+.doctorButton{
+  display: none;
+}
+.doctorDiv a{
+  text-decoration: none;
+}
+.doctorDiv:hover button{
+  width: 50%;
+  margin: auto;
+  display: block;
+  border: 0;
+  background: #fb2576;
+  color: white;
+  border-radius: 2rem;
+}
+.doctorDiv:hover h5, .doctorDiv:hover p{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DOCTORS SINGLE PAGE */
+.app-time {
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  box-shadow: 2px 4px 10px 0px #c7cacce3;
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 8px;
+  right: 0;
+  bottom: 0;
+  left: 40px;
+  height: 20px;
+  width: 20px;
+  transition: all 0.15s ease-out 0s;
+  background: #fff;
+  border: 1px solid #999;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+.option-input:hover {
+  background: #e5e7eb;
+}
+.option-input:checked {
+  border: 1px solid #fff;
+}
+.option-input:checked::before {
+  color: #d9486d;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: "✔";
+  display: inline-block;
+  font-size: 12px;
+  left: 4px;
+  line-height: 20px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: "";
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+.app-check {
+  display: flex;
+}
+.app-border {
+  border: 1px solid #ece9e9;
+  border-radius: 7px;
+  padding: 5px 7px 5px 9px;
+  padding-left: 40px;
+  min-height: 30px;
+}
+
+.option-input.radio:checked + .app-border {
+  background: #d9486d;
+}
+.option-input.radio:disabled,
+.option-input.radio:disabled + .app-border {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.app-label {
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* TESTIMONIALS */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testimonials {
+  padding: 50px 0 100px 0;
+}
+.testimonials h3 {
+  margin-bottom: 20px;
+}
+.testimonials .card {
+  border-bottom: 3px #007bff solid !important;
+  transition: 0.5s;
+  margin-top: 60px;
+}
+.testimonials .card i {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: -40px auto 0 auto;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* FOOTER */
+
+.footer-texts{
+  text-decoration: none;
+  color: rgb(142, 155, 168);
+}
+
+.footer-texts:hover{
+  color: bisque;
+  text-decoration:underline;
+}
+
+.footer-info{
+  background: rgb(8, 3, 48);
+}
+
+h5 b{
+  color: white;
+}
+.heading-footer{
+  color: white;
+}
+hr{
+  color: grey;
+  width: 50%;
+  margin: 3% 25% 3% 25%;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* FEEDBACK FORM */
+.form-group{
+  margin: 2rem 3rem 0rem 3rem;
+}
+
+.formSubmit{
+  color: white;
+}
+
+
+/* PROFILE */
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Appointment */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+.formbold-mb-5 {
+  margin-bottom: 20px;
+}
+.formbold-pt-3 {
+  padding-top: 12px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.formbold-form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+.formbold-form-label-2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.formbold-form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+  text-align: center;
+  font-size: 16px;
+  border-radius: 6px;
+  padding: 14px 32px;
+  border: none;
+  font-weight: 600;
+  background-color: #6a64f1;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold--mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.formbold-px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
+
+.appointmentPage{
+  width: 50%;
+  margin: auto;
+  padding-top: 1rem;
+}
+.rowClass{
+  margin-top: 2rem;
+}
